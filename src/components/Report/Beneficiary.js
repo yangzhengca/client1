@@ -17,6 +17,7 @@ import Orders from '../dashboard/Orders';
 // import { getPosts,getInvestment } from "../../actions/posts";
 import BeneficiaryTable from '../Tables/Table/BeneficiaryTable';
 import PieCharts from '../dashboard/PieCharts';
+import AreaCharts from '../dashboard/AreaCharts';
 
 
 const drawerWidth = 240;
@@ -158,11 +159,16 @@ const Beneficiary = () =>  {
               </Paper>
             </Grid>
 
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} md={6} lg={6}>
+              <Paper className={fixedHeightPaper}>
+                <AreaCharts />
+              </Paper>
+            </Grid>
+            {/* <Grid item xs={12} md={6} lg={4}>
               <Paper className={fixedHeightPaper}>
                 <Deposits />
               </Paper>
-            </Grid>
+            </Grid> */}
            
             
             <Grid item xs={12}>

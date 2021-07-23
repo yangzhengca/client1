@@ -17,6 +17,7 @@ import Orders from '../dashboard/Orders';
 // import { getPosts,getInvestment } from "../../actions/posts";
 import QuarterUpdateTable from '../Tables/Table/QuarterUpdateTable';
 import PieCharts from '../dashboard/PieCharts';
+import ComCharts from '../dashboard/ComCharts'
 
 
 const drawerWidth = 240;
@@ -160,7 +161,7 @@ const QuarterUpdate = () =>  {
 
             <Grid item xs={12} md={6} lg={4}>
               <Paper className={fixedHeightPaper}>
-                <Deposits />
+                <ComCharts />
               </Paper>
             </Grid>
            

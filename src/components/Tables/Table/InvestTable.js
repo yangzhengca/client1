@@ -24,13 +24,57 @@ const useStyles = makeStyles({
 const investment=[{
   investmentId:123456,
   memberId:321654,
-  amount:100000,
+  amount:5000,
   type:"bank-deposit",
   depositDate:"July 19, 2021",
   image:"https://i.imgur.com/n7bTdDV.jpg",
   quarterId:235689,
-  totalInvestment:300000,
-  totalShares:300000
+  totalInvestment:100000,
+  totalShares:30000
+},
+{
+  investmentId:123457,
+  memberId:321655,
+  amount:9000,
+  type:"e-transfer",
+  depositDate:"July 20, 2021",
+  image:"https://i.imgur.com/GO4Tv3F.jpg",
+  quarterId:235690,
+  totalInvestment:180000,
+  totalShares:30000
+},
+{
+  investmentId:123457,
+  memberId:321655,
+  amount:900000,
+  type:"e-transfer",
+  depositDate:"July 20, 2021",
+  image:"https://i.imgur.com/GO4Tv3F.jpg",
+  quarterId:235690,
+  totalInvestment:280000,
+  totalShares:280000
+},
+{
+  investmentId:123457,
+  memberId:321655,
+  amount:900000,
+  type:"e-transfer",
+  depositDate:"July 20, 2021",
+  image:"https://i.imgur.com/GO4Tv3F.jpg",
+  quarterId:235690,
+  totalInvestment:280000,
+  totalShares:280000
+},
+{
+  investmentId:123457,
+  memberId:321655,
+  amount:900000,
+  type:"e-transfer",
+  depositDate:"July 20, 2021",
+  image:"https://i.imgur.com/GO4Tv3F.jpg",
+  quarterId:235690,
+  totalInvestment:280000,
+  totalShares:280000
 },
 {
   investmentId:123457,

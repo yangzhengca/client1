@@ -17,7 +17,7 @@ import Orders from '../dashboard/Orders';
 // import { getPosts,getInvestment } from "../../actions/posts";
 import QuarterTable from '../Tables/Table/QuarterTable';
 import PieCharts from '../dashboard/PieCharts';
-
+import LineCharts from '../dashboard/LineCharts';
 
 const drawerWidth = 240;
 
@@ -145,24 +145,24 @@ const Quarter = () =>  {
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={3}>
             {/* Chart */}
-            {/* <Grid item xs={12} md={8} lg={9}>
+            <Grid item xs={12} md={8} lg={9}>
               <Paper className={fixedHeightPaper}>
               
-                <Chart />
+                <LineCharts />
               </Paper>
-            </Grid> */}
+            </Grid>
             {/* Recent Deposits */}
-            <Grid item xs={12} md={8} lg={6}>
+            {/* <Grid item xs={12} md={8} lg={6}>
               <Paper className={fixedHeightPaper}>
               <PieCharts />
               </Paper>
-            </Grid>
+            </Grid> */}
 
-            <Grid item xs={12} md={6} lg={4}>
+            {/* <Grid item xs={12} md={6} lg={4}>
               <Paper className={fixedHeightPaper}>
                 <Deposits />
               </Paper>
-            </Grid>
+            </Grid> */}
            
             
             <Grid item xs={12}>

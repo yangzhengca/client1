@@ -16,7 +16,7 @@ import Orders from '../dashboard/Orders';
 // import { useDispatch } from "react-redux";
 // import { getPosts,getInvestment } from "../../actions/posts";
 import InvestTable from '../Tables/Table/InvestTable';
-import PieCharts from '../dashboard/PieCharts';
+import PieChart2 from '../dashboard/PieChart2';
 
 
 const drawerWidth = 240;
@@ -154,7 +154,7 @@ const Investment = () =>  {
             {/* Recent Deposits */}
             <Grid item xs={12} md={8} lg={6}>
               <Paper className={fixedHeightPaper}>
-              <PieCharts />
+              <PieChart2 />
               </Paper>
             </Grid>
 
