@@ -77,7 +77,7 @@ export const secondaryListItems = (
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="PROPERTY-QUARTER-UPDATE" />
+      <ListItemText primary="QUARTER-UPDATE" />
     </ListItem>
   </div>
 );

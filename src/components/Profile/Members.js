@@ -145,8 +145,12 @@ const Profile = () => {
         <List>{secondaryListItems}</List>
       </Drawer>
       <main className={classes.content}>
-        <div className={classes.appBarSpacer} />
+        {/* <div className={classes.appBarSpacer} /> */}
         <Container maxWidth="lg" className={classes.container}>
+        <Typography variant="h3" gutterBottom>
+        Members Console
+      </Typography>
+      <div className={classes.appBarSpacer} />
        <MembersTable/>
         </Container>
       </main>

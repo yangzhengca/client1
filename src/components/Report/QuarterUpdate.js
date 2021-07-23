@@ -144,6 +144,10 @@ const QuarterUpdate = () =>  {
       <main className={classes.content}>
         {/* <div className={classes.appBarSpacer} /> */}
         <Container maxWidth="lg" className={classes.container}>
+        <Typography variant="h3" gutterBottom>
+        Property Quarter Update Report
+      </Typography>
+      <div className={classes.appBarSpacer} />
           <Grid container spacing={3}>
             {/* Chart */}
             {/* <Grid item xs={12} md={8} lg={9}>
@@ -153,13 +157,13 @@ const QuarterUpdate = () =>  {
               </Paper>
             </Grid> */}
             {/* Recent Deposits */}
-            <Grid item xs={12} md={8} lg={6}>
+            <Grid item xs={12} md={4} lg={4}>
               <Paper className={fixedHeightPaper}>
               <PieCharts />
               </Paper>
             </Grid>
 
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} md={8} lg={8}>
               <Paper className={fixedHeightPaper}>
                 <ComCharts />
               </Paper>

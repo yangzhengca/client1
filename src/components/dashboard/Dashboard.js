@@ -141,8 +141,13 @@ const Dashboard = () =>  {
         <List>{secondaryListItems}</List>
       </Drawer>
       <main className={classes.content}>
+
         {/* <div className={classes.appBarSpacer} /> */}
         <Container maxWidth="lg" className={classes.container}>
+        <Typography variant="h3" gutterBottom>
+        Admin Dashboard
+      </Typography>
+      <div className={classes.appBarSpacer} />
           <Grid container spacing={3}>
             {/* Chart */}
             {/* <Grid item xs={12} md={8} lg={9}>

@@ -54,7 +54,7 @@ const ApplyTable = ({ setCurrentId }) => {
 
   return (
     <div>
-      <Title>Apply List</Title>
+      <Title>Apply users List</Title>
       <TableContainer component={Paper}>
         <Table className={classes.table} aria-label="simple table">
           <TableHead>
